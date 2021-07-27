@@ -5,7 +5,8 @@ How to create test cases and tags based on data driven methodology when the numb
 Save [DynamicTagAndTestCaseCreation.py](https://github.com/hrvthgergo/dataDrivenRobotFrameworkTests/blob/main/DynamicTagAndTestCaseCreation.py) into your python site packages -> ..Lib/site-packages/DynamicTagAndTestCaseCreation.py.
 
 ## Test Cases
-Create test Cases based on the quieried data from any source, in the example I used database.
+Create Test Cases based on the quieried data from any source, in the example I used database.
+
 step 1: Suite Setup  Preparation: Creating Test Cases By Ids -> call the Preparation: Creating Test Cases By Ids Keyword to create test cases based on queried data.
 
 step 2: Listing Identifiers from DB -> collect and return the data from DB as a list, based on the given query.
