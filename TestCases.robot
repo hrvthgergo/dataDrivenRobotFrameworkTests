@@ -21,9 +21,12 @@ Listing Identifiers from DB
 	#select id_1,id_2,id_3, tag
 	#from table
 	#where condition;
+	[Return]  @{list_of_ids}
 
 #practically save it to a different file	
+#contain the Test Steps to execute
 Test Steps
+	[Arguments]  @{list_of_id}
 	No Operation
 
 Preparation: Creating Test Cases By Ids
